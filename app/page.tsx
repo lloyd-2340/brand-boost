@@ -132,7 +132,7 @@ export default function BrandAssessmentApp() {
     {
       id: "websiteLink",
       question: "What's your website URL?",
-      placeholder: "https://yourwebsite.com (optional)",
+      placeholder: "https://yourwebsite.com",
       type: "input" as const,
       required: false,
       icon: Zap,
