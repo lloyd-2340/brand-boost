@@ -185,7 +185,7 @@ export default function BrandAssessmentApp() {
 
     try {
       // Send data to webhook
-      const webhookUrl = "https://pro-aiteam-dev.app.n8n.cloud/webhook-test/0dba3d89-5fa9-4ec1-8e71-81ffdeec2f80"
+      const webhookUrl = "https://pro-aiteam-dev.app.n8n.cloud/webhook/0dba3d89-5fa9-4ec1-8e71-81ffdeec2f80"
       
       const payload = [{
         brandName: brandData.brandName,
